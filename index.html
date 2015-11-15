@@ -100,30 +100,25 @@
             </p>
         </div>
     </div>
-
+!-->
     <div class="content">
         <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                <form class="pure-form pure-form-stacked">
-                    <fieldset>
 
-                        <label for="name">Your Name</label>
-                        <input id="name" type="text" placeholder="Your Name">
+            <form method="POST" class="pure-form pure-form-stacked" action="http://formspree.io/kofieco@gmail.com">
+                <fieldset>
+                  <label for="name">Email</label>
+                  <input type="email" name="_replyto" placeholder="email@exemplo.com">
 
-
-                        <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
-
-                        <label for="password">Your Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
-
-                        <button type="submit" class="pure-button">Sign Up</button>
-                    </fieldset>
-                </form>
+                  <label for="body">Mensagem</label>
+                  <textarea name="body" style="width: 100%; height: 150px;"></textarea>
+                  <br>
+                  <button type="submit" class="pure-button">Enviar</button>
+                </fieldset>
             </div>
-
+<!--
             <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
                 <h4>Contact Us</h4>
                 <p>
